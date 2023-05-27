@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+      integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+    <script src="script.js" defer></script>
+    <title>Nebula</title>
+    <link
+    href="./assets/About-removebg-preview.png"
+    rel="shortcut icon"
+    type="image/x-icon"
+  />
+  <link href="" rel="apple-touch-icon" />
+  </head>
+
+  <body>
+    <nav>
+      <img src="./assets/About-removebg-preview.png" alt="logo" class="logo" />
+      <ul>
+        <a href="#home"><li>HOME</li></a>
+        <a href="#utility"><li>About</li></a>
+        <a
+          href="https://poocoin.app/tokens/0xdff7cbe2f9240c6aaf34a8b60cd7eb42aa20424d" 
+          target="_blank"
+          ><li>LIVE CHART</li></a
+        > ///
+        <a href="#roadmap"><li>ROADMAP</li></a>
+       <a href="https://t.me/NebulaERC20"> <li class="nav-button">JOIN US</li></a>
+      </ul>
+    </nav>
+    <nav class="mob-nav">
+      <img src="./assets/nav.png" alt="logo" class="logo" />
+      <ul>
+        <a href=""><li>LIVE CHART</li></a> ///
+       <a href=""><li class="nav-button">JOIN US</li></a> ///
+      </ul>
+    </nav>
+
+    <!-- hero -->
+    <div class="hero hidden justify-between" id="home">
+      <div class="askus" id="askus">
+        <svg
+          width="1100"
+          height="500"
+          viewBox="0 0 1000 500"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <text
+            transform="translate(0 -90) rotate(-3)"
+            stroke="#fff"
+            stroke-opacity="0.4"
+            xml:space="preserve"
+            style="white-space: pre"
+            font-family="Outfit"
+            font-size="490"
+            font-weight="bold"
+            letter-spacing="0em">
+            <tspan x="0" y="489.8">BUY</tspan>
+          </text>
+        </svg>
+      </div>
+      <div class="hero-text">
+        <span class="hero-left-orange slogan">Nebula</span>
+        <span class="hero-left-white1">Hyped meme coin project of 2023</span>
+
+        <span class="hero-left-white">
+          Nebula is a community driven meme coin project aiming to create a
+          new hype on the Ethereum chain.
+        </span>
+        <div class="hero-buttons">
+          <a
+            href="https://poocoin.app/tokens/0xdff7cbe2f9240c6aaf34a8b60cd7eb42aa20424d" ///
+            target="_blank"
+            ><div class="buy">Buy Now</div></a
+          >
+          <a
+            href="https://poocoin.app/tokens/0xdff7cbe2f9240c6aaf34a8b60cd7eb42aa20424d" ///
+            target="_blank"
+            ><div class="chart">Chart</div></a
+          >
+        </div>
+      </div>
+      <div class="right">
+        <img src="assets/Heros.png" class="dog" />
+      </div>
+    </div>
+
+    <!-- about -->
+    <div
+      class="utility h-full flex justify-around items-center p-6 relative"
+      id="utility">
+      <div class="custom-p text-3xl w-1/2 p-16">
+        <p class="content">
+          Nebula is a coin inspired by the popular character Nebula from the Guardians of the Galaxy. Just like Nebula's insane transformations throughout the movies, this meme coin aims to bring a sense of growth and evolution to the world of meme coins.
+        </p>
+      </div>
+      <div class="u-left w-1/3">
+        <div class="cards">
+          <div class="util-card-purple"></div>
+          <div class="util-card-orange"></div>
+          <div class="util-card-white">
+            <div class="img-container">
+              <img
+                id="logo1"
+                src="./assets/photo_2_2023-05-27_14-14-21.jpg"
+                alt=""
+                class="img-fit-box" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gradient-r custom-p text-8xl">About</div>
+    </div>
+
+
+
+    <!-- about-mob -->
+    <div class="utility-mob" id="utility-2">
+      <h1 class="util-mob-heading">Utility</h1>
+      <p>
+        Nebula is a coin inspired by the popular character Nebula from the Guardians of the Galaxy. Just like Nebula's insane transformations throughout the movies, this meme coin aims to bring a sense of growth and evolution to the world of meme coins.
+      </p>
+    </div>
+
+    <!-- roadmap -->
+    <div class="roadmap" id="roadmap">
+      <br />
+      <div class="roadmap-top">Roadmap</div>
+      <div class="roadmap-cards hidden">
+        <div class="roadmap-card c1">
+          <span class="phase-heading">Phase 1</span>
+          <span class="phase-content">
+            <ul>
+              <li>Token Stealth Launch</li>
+              <li>Website V1 Launch</li>
+              <li>Marketing Kickoff</li>
+              <li>Ad Buys, Callers, Influencer Partnerships</li>
+              <li>Promotions, Giveaways, Contest</li>
+            </ul>
+          </span>
+        </div>
+        <div class="roadmap-card c2">
+          <span class="phase-heading">Phase 2</span>
+          <span class="phase-content">
+            <ul>
+              <li>Community Accelerator</li>
+              <li>Partnership Building & Collaborations</li>
+              <li>Community Giveaways & Social Promos</li>
+              <li>1,000+ Community Members</li>
+            </ul>
+          </span>
+        </div>
+        <div class="roadmap-card c3">
+          <span class="phase-heading">Phase 3</span>
+          <span class="phase-content">
+            <ul>
+              <li>Listing on Major Exchanges</li>
+              <li>Big Partnerships & Influencers</li>
+              <li>5,000+ Community Members</li>
+              <li>
+                <b
+                  ><i>
+                    Nebula Has The Goal To Connect With Every Marvel
+                    Community.
+                  </i>
+                </b>
+              </li>
+            </ul>
+          </span>
+        </div>
+      </div>
+      <div class="roadmap-buttons">
+        <a
+          href="https://poocoin.app/tokens/0xdff7cbe2f9240c6aaf34a8b60cd7eb42aa20424d"
+          ><div class="buy">Buy Now</div></a
+        >
+        <a
+          href="https://poocoin.app/tokens/0xdff7cbe2f9240c6aaf34a8b60cd7eb42aa20424d"
+          ><div class="chart">Chart</div></a
+        >
+      </div>
+    </div>
+
+
+    <!-- socials -->
+    <div class="socials" id="socials">
+      <br /><br /><br />
+      <div class="social-heading">Follow Us</div>
+      <div class="social-links">
+        <div class="social-link telegram">
+          <a href="https://t.me/NebulaERC20" target="_blank">
+            <img
+              class="social-img"
+              src="./assets/socials/telegram.png"
+              alt=""
+              srcset="" />
+          </a>
+        </div>
+        <div class="social-link twitter">
+          <a href="https://twitter.com/NebulaErc20" target="_blank">
+            <img
+              class="social-img"
+              src="./assets/socials/twitter.png"
+              alt=""
+              srcset="" />
+          </a>
+        </div>
+      </div>
+      <img class="social-img" src="" alt="" />
+    </div>
+
+    <footer>
+      <span>Copyright © Nebula</span>
+    </footer>
+    <audio controls autoplay hidden>
+      <source src="./assets/Marvel Opening Theme.mp3" type="audio/mp3">
+    </audio>
+  </body>
+</html>
