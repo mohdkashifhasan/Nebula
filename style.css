@@ -1007,3 +1007,51 @@ footer {
 		border-radius: 10px;
 	}
 }
+
+/* .tokenomics{
+	margin-top: 90px;
+	font-size: 14px
+}
+
+.tokenomics table {
+    border-collapse : collapse;
+  }
+
+  .tokenomics td {
+    border: none;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  .tokenomics td:first-child {
+    font-weight: bold;
+  } */
+
+  .tokenomics { 
+	font-size: 20px;
+	margin-top: 100px;
+    /* margin: 0 auto; */
+    text-align: center;
+	background-color: #5C469C;
+    border-radius : 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 600px;
+	background: linear-gradient(90deg, rgb(178, 164, 255) -264.93%, rgba(46, 221, 193, 0) 102.69%);
+  }
+
+  .tokenomics table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .tokenomics td {
+    border: none;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .tokenomics td:first-child {
+    font-weight: bold;
+  }
