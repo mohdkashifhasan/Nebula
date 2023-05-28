@@ -672,7 +672,7 @@ nav ul li:hover {
 
 .social-heading {
 	height: 10.625rem;
-	background:#5C469C;
+	background: linear-gradient(90deg, rgb(178, 164, 255) -264.93%, rgba(46, 221, 193, 0) 102.69%);
 	font-family: "Outfit";
 	font-style: normal;
 	font-weight: 700;
