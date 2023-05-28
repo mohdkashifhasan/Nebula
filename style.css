@@ -1057,3 +1057,10 @@ footer {
   .tokenomics td:first-child {
     font-weight: bold;
   }
+
+  @media only screen and (max-width: 600px) {
+    .tokenomics {
+      max-width: 100%;
+      overflow-x: scroll;
+    }
+  }
